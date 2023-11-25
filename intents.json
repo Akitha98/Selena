@@ -1,0 +1,61 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Selena","I'm Selena","I'm Selena your virtual assistant"]
+  },
+
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the PES","what is the location of the PES UOJ SBC","what is the location of the PES SBC"],
+  "responses": ["IEEE PES UOJ SBC is located at Faculty of Engineering, University of Jaffna, Sri Lanka."]
+  },
+
+ 
+ 
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["well, students should be following Electrical and Electronic Engineering at Univeristy of Jaffna"]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes of membership available","membership classes?"],
+  "responses": ["There are two classes as Student membership and Staff membership"]
+  },
+
+
+  {"tag": "hours",
+  "patterns": ["what are your working hours","when are you guys open","what your hours of operation"],
+  "responses": ["You can message us here at any hours. But our college scoety will be open from 7:00 am to 5:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any fun activities?","does the chapter conducts any fun program"],
+  "responses": ["Yes, Of course. Working with us will always be fun. We go trips, have games likewise"]
+  },
+
+
+  {"tag": "fee",
+  "patterns": ["how much is the membership fee","what is the fee structure"],
+  "responses": ["log into our official website and check out"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
